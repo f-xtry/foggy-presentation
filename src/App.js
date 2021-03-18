@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { VictoryChart, VictoryLine, VictoryPie, VoctoryTooltip, VictoryLabel, VictoryTooltip, VictoryVoronoiContainer, VictoryGroup, VictoryScatter } from 'victory';
 import getData from './data';
+import screenshot_1 from "./screenshots/1_ubuntu.png";
 
 import {
   FlexBox,
@@ -110,7 +111,7 @@ const Presentation = () => (
         <Text>Ubuntu, GNOME desktop</Text>
       </FlexBox>
       <FlexBox flexDirection="row" alignItems="center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Ubuntu_20.10_2880p_EN_31_12_2020_13_51_50.png" width="50%" />
+        <img src={screenshot_1} width="50%" />
         <Quote><small>Ubuntu - операційна система, найпопулярніший у світі дистрибутив Linux. Серед основних цілей Ubuntu - надання сучасного й водночас стабільного програмного забезпечення для пересічного користувача із сильним акцентом на простоту встановлення та користування</small></Quote>
       </FlexBox>
       <Notes>
@@ -137,13 +138,13 @@ const Presentation = () => (
               <VictoryPie
                 style={{ labels: { fill: "white" } }}
                 innerRadius={100}
-                labelRadius={120}
-                labels={({ datum }) => `${datum.name}`}
+                labelRadius={110}
+                labels={({ datum }) => `${datum.name}\n${datum.relative}%`}
                 labelComponent={<VictoryLabel />}
                 data={[
-                  { x: 1, y: 1.98, name: "chrome os" },
-                  { x: 2, y: 16.74, name: "osx" },
-                  { x: 3, y: 1.99, name: "linux" },
+                  { x: 1, y: 1.98, name: "chrome os", relative: 9.6 },
+                  { x: 2, y: 16.74, name: "osx", relative: 80.8 },
+                  { x: 3, y: 1.99, name: "linux", relative: 9.60 },
                 ]}
               />
             </FlexBox>
