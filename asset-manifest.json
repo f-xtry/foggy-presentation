@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/foggy-presentation/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/foggy-presentation/static/js/main.e3a6a0bc.chunk.js",
-    "main.js.map": "/foggy-presentation/static/js/main.e3a6a0bc.chunk.js.map",
+    "main.js": "/foggy-presentation/static/js/main.e017d995.chunk.js",
+    "main.js.map": "/foggy-presentation/static/js/main.e017d995.chunk.js.map",
     "runtime-main.js": "/foggy-presentation/static/js/runtime-main.b4dc8ca9.js",
     "runtime-main.js.map": "/foggy-presentation/static/js/runtime-main.b4dc8ca9.js.map",
     "static/js/2.51e3136c.chunk.js": "/foggy-presentation/static/js/2.51e3136c.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/3.9ec9d93f.chunk.js.map": "/foggy-presentation/static/js/3.9ec9d93f.chunk.js.map",
     "index.html": "/foggy-presentation/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/foggy-presentation/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.51e3136c.chunk.js.LICENSE.txt": "/foggy-presentation/static/js/2.51e3136c.chunk.js.LICENSE.txt"
+    "static/js/2.51e3136c.chunk.js.LICENSE.txt": "/foggy-presentation/static/js/2.51e3136c.chunk.js.LICENSE.txt",
+    "static/media/1_ubuntu.b381a8c4.png": "/foggy-presentation/static/media/1_ubuntu.b381a8c4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b4dc8ca9.js",
     "static/js/2.51e3136c.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.e3a6a0bc.chunk.js"
+    "static/js/main.e017d995.chunk.js"
   ]
 }
