@@ -109,7 +109,7 @@ const Presentation = () => (
     </Slide>
     <Slide backgroundColor="background">
       <FlexBox flexDirection="column" alignItems="center">
-        <Text>Ubuntu, GNOME desktop</Text>
+        <Text>Ubuntu</Text>
       </FlexBox>
       <FlexBox flexDirection="row" alignItems="center">
         <img src={screenshot_1} width="50%" />
@@ -161,7 +161,9 @@ const Presentation = () => (
       </Notes>
     </Slide>
     <Slide backgroundColor="background">
-      <Heading>Бюждет і Маркетинг</Heading>
+      <FlexBox flexDirection="row" alignItems="center">
+        <Text>Бюждет і Маркетинг</Text>
+      </FlexBox>
       <UnorderedList style={{ fontSize: 28 }}>
         <ListItem>На розробку ОС ми не потребуємо коштів</ListItem>
         <ListItem>Ми підримуватимемо цей проєкт завдяки підтримці зацікавлених осіб</ListItem>
@@ -213,7 +215,7 @@ const Presentation = () => (
       <UnorderedList>
         <ListItem>Інсталяція значно автоматизованіша ніж у інших систем</ListItem>
         <ListItem>Live CD/USB дозволяє спробувати операційну систему Linux, не встановлюючи її</ListItem>
-        <ListItem>Працює незалежно від обладнання, часто використовується для "відродження" старих комп’ютерів</ListItem>
+        <ListItem>Працює і на слабкому обладнанні, часто використовується для "відродження" старих комп’ютерів</ListItem>
       </UnorderedList>
     </Slide>
     <Slide backgroundColor="background">
