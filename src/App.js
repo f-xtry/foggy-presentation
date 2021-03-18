@@ -220,6 +220,15 @@ const Presentation = () => (
         </Quote>
       </FlexBox>
     </Slide>
+    <Slide backgroundColor="background">
+      <Heading>Наші цілі:</Heading>
+      <UnorderedList>
+        <ListItem>Безпека та приватність - тому що це найголовніше</ListItem>
+        <ListItem>Легкість використання - не потрібно вчитися користуватися</ListItem>
+        <ListItem>Швидкість - ми оптимізуватимемо систему для максимально швидкого запуску</ListItem>
+        <ListItem>Краса - естетично довершена система, яка одразу виглядає акуратно</ListItem>
+      </UnorderedList>
+    </Slide>
   </Deck >
 );
 
