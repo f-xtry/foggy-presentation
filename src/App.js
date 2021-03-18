@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { VictoryChart, VictoryLine, VictoryPie, VoctoryTooltip, VictoryLabel, VictoryTooltip, VictoryVoronoiContainer, VictoryGroup, VictoryScatter } from 'victory';
 import getData from './data';
 import screenshot_1 from "./screenshots/1_ubuntu.png";
+import screenshot_2 from "./screenshots/2_lake.png";
 
 import {
   FlexBox,
@@ -64,7 +65,7 @@ const template = () => (
   </FlexBox>
 );
 
-const anote = { color: theme.colors.pale, position: "absolute", bottom: "3rem", right: "8rem" };
+const anote = { color: theme.colors.pale, position: "absolute", bottom: "4rem", right: "8rem" };
 const Presentation = () => (
   <Deck theme={theme} template={template}>
     <Slide backgroundColor="background">
@@ -158,6 +159,59 @@ const Presentation = () => (
           <li>Важливою ознакою нашої системи є та, що вартість не повинна бути головною перевагою. Ми цілимося на таку швидкодію, зручність і акуратність, щоб до нас переходили навіть за втричі більшу вартість</li>
         </ul>
       </Notes>
+    </Slide>
+    <Slide backgroundColor="background">
+      <Heading>Переваги linux: Безпека</Heading>
+      <UnorderedList>
+        <ListItem>Відкритий код дозволяє забезпечити значно кращу безпеку</ListItem>
+        <ListItem>Окремі інструменти запускають програми цілком ізольовано</ListItem>
+        <ListItem>Значної шкоди системі не можливо завдати без пароля адміністратора</ListItem>
+        <ListItem>Linux не потребує антивіруса</ListItem>
+      </UnorderedList>
+      <Notes>
+        Наслідок - 70% серверів використовують linux
+    </Notes>
+    </Slide>
+    <Slide backgroundColor="background">
+      <Heading>Переваги linux: Швидкість, стабільність</Heading>
+      <UnorderedList>
+        <ListItem>Windows має розмір інсталяції 25-40 GB. Більшість дистрибутивів потребують 4 GB, а деякі серверні - менше 100 MB</ListItem>
+        <ListItem>Оперативної пам'яті linux використовує менше - 100-750 MB Linux, 2.4-2.8 GB Windows у стані спокою</ListItem>
+        <ListItem>Швидкість linux більша, запускається у 2-5 разів швидше</ListItem>
+        <ListItem>Linux стабільніший за інші операційні системи</ListItem>
+      </UnorderedList>
+      <Notes>
+        <ul>
+          <li>Швидкість linux більша, бо на фоні менше сервісів</li>
+          <li>Linux не вимагає перезавантаження для підтримки рівня продуктивності</li>
+          <li>Multitasking is much smoother on linux</li>
+        </ul>
+        Наслідок - 90% суперкомп'ютерів та андроїд використовують linux
+    </Notes>
+    </Slide>
+    <Slide backgroundColor="background">
+      <Heading>Переваги linux: легкість інсталяції</Heading>
+      <UnorderedList>
+        <ListItem>Інсталяція значно автоматизованіша ніж у інших систем</ListItem>
+        <ListItem>Live CD/USB дозволяє спробувати операційну систему Linux, не встановлюючи її</ListItem>
+        <ListItem>Працює незалежно від обладнання, часто використовується для "відродження" старих комп’ютерів</ListItem>
+      </UnorderedList>
+    </Slide>
+    <Slide backgroundColor="background">
+      <Heading>Переваги linux: Ricing</Heading>
+      <Text>Nothing here yet</Text>
+    </Slide>
+    <Slide backgroundColor="background">
+      <Heading>Що ми створюємо: центр "lake"</Heading>
+      <FlexBox flexDirection="row">
+        <img src={screenshot_2} width="50%" />
+        <Quote fontSize="36px">
+          Ви можете налаштувати свою систему як завгодно.
+          Однак для цього потрібно змінити багато файлів конфігурації, подібних до коду.
+          Ми пропонуємо центр налаштувань, який дозволяє зробити це простіше.
+          Він буде мати вбудовану функцію встановлення програм та інші подібні
+        </Quote>
+      </FlexBox>
     </Slide>
   </Deck >
 );
