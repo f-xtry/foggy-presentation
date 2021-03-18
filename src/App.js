@@ -163,7 +163,7 @@ const Presentation = () => (
     <Slide backgroundColor="background">
       <Heading>Переваги linux: Безпека</Heading>
       <UnorderedList>
-        <ListItem>Відкритий код дозволяє забезпечити значно кращу безпеку</ListItem>
+        <ListItem>Відкритий код надає значно кращу безпеку</ListItem>
         <ListItem>Окремі інструменти запускають програми цілком ізольовано</ListItem>
         <ListItem>Значної шкоди системі не можливо завдати без пароля адміністратора</ListItem>
         <ListItem>Linux не потребує антивіруса</ListItem>
@@ -199,7 +199,14 @@ const Presentation = () => (
     </Slide>
     <Slide backgroundColor="background">
       <Heading>Переваги linux: Ricing</Heading>
-      <Text>Nothing here yet</Text>
+      <Text>
+        Термін ricing походить з світу автомобілів.
+        RICE розшифровується як Race Inspired Cosmetic Enhancement.
+        Ідея полягає в тому, щоб підвищити сприйняту ефективність за допомогою косметики.
+        Це почали робити і з системами linux.
+        Та процес цей - нелегкий, і вимагає безпосередньої взаємодії з подібними на код файлами конфігурації.
+        Взірцеві приклади ricing можна переглянути на <a style={{ color: theme.colors.pale }} href="https://reddit.com/r/unixporn">reddit</a>
+      </Text>
     </Slide>
     <Slide backgroundColor="background">
       <Heading>Що ми створюємо: центр "lake"</Heading>
