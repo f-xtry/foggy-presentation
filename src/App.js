@@ -162,7 +162,7 @@ const Presentation = () => (
     </Slide>
     <Slide backgroundColor="background">
       <FlexBox flexDirection="row" alignItems="center">
-        <Text>Бюждет і Маркетинг</Text>
+        <Text>Бюджет і Маркетинг</Text>
       </FlexBox>
       <UnorderedList style={{ fontSize: 28 }}>
         <ListItem>На власне розробку ОС ми не потребуємо коштів</ListItem>
