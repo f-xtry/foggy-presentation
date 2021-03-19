@@ -191,7 +191,7 @@ const Presentation = () => (
       </UnorderedList>
       <Notes>
         Наслідок - 70% серверів використовують linux
-    </Notes>
+      </Notes>
     </Slide>
     <Slide backgroundColor="background">
       <Heading>Переваги linux: Швидкість, стабільність</Heading>
@@ -208,7 +208,24 @@ const Presentation = () => (
           <li>Multitasking is much smoother on linux</li>
         </ul>
         Наслідок - 90% суперкомп'ютерів та андроїд використовують linux
-    </Notes>
+      </Notes>
+    </Slide>
+    <Slide backgroundColor="background">
+      <Heading>Переваги linux: пакунки та оновлення</Heading>
+      <UnorderedList>
+        <ListItem>Менеджери пакетів - програми, що дозволяють встановлювати практично будь-яку іншу програму. Ми, швидше за все, підтримуватимемо flatpak та apt</ListItem>
+        <ListItem>Процес оновлення - на відміну від Windows - не вимагає перезапуску, все може оновитись якщо ви хочете, коли ви хочете і просто у фоновому режимі</ListItem>
+      </UnorderedList>
+      <Notes>
+        <ul>
+          <li>Package manager GUIs</li>
+          <li>Everything getting an update at once!!!</li>
+          <li>Standard vlc install comparison</li>
+          <li>Kernel updates and livepatch</li>
+          <li>Outdated binaries</li>
+        </ul>
+        Наслідок - 90% суперкомп'ютерів та андроїд використовують linux
+      </Notes>
     </Slide>
     <Slide backgroundColor="background">
       <Heading>Переваги linux: легкість інсталяції</Heading>
@@ -242,6 +259,34 @@ const Presentation = () => (
       </FlexBox>
     </Slide>
     <Slide backgroundColor="background">
+      <Heading>Що ми створюємо: Менеджер "BiscuitWM"</Heading>
+      <FlexBox flexDirection="row">
+        <Quote fontSize="36px">
+          Ми також створюємо віконний менеджер, орієнтований на всіх.
+          Більшість менеджерів вікон орієнтовані або на початківців (cinnamon), або на середніх (GNOME), або на досвідчених (bspwm) користувачів, і жоден з них не має перемикача.
+          Ми пропонуємо той, який має.
+        </Quote>
+      </FlexBox>
+      <Notes>
+        What is it anyways?
+      </Notes>
+    </Slide>
+    <Slide backgroundColor="background">
+      <Heading>Що ми створюємо: інсталятор</Heading>
+      <FlexBox flexDirection="row">
+        <Quote fontSize="36px">
+          Нескладно здогадатися, що найскладнішим у користуванні системою є процес встановлення.
+          Ми розроблятимемо інсталятор, який, будучи звичайною програмою на віндовс, поставить вам цю систему автоматично.
+        </Quote>
+        <Notes>
+          Dual boot
+        </Notes>
+      </FlexBox>
+      <Notes>
+        Якщо це можна зробити лише в терміналі, то це не можна зробити.
+      </Notes>
+    </Slide>
+    <Slide backgroundColor="background">
       <Heading>Наші цілі:</Heading>
       <UnorderedList>
         <ListItem>Безпека та приватність - тому що це найголовніше</ListItem>
@@ -253,7 +298,15 @@ const Presentation = () => (
         Якщо це можна зробити лише в терміналі, то це не можна зробити.
       </Notes>
     </Slide>
-  </Deck >
+    <Slide backgroundColor="background">
+      <Heading>Веб-сайт</Heading>
+      <Text>
+        Чи не найбільше значення у виборі користувачем системи має її сайт.
+        На цьому ми зробимо великий наголос.
+        Ніхто не хоче використовувати ос, сайт якої виглядає <a style={{ color: theme.colors.pale }} href="https://linuxmint.com">ось так,</a> а це проблема багатьох.
+        Ми навіть роздумуємо над доданням функції сайта, яка дозволяє налаштувати систему до завантаження.</Text>
+    </Slide>
+  </Deck>
 );
 
 export default function App(props) {
