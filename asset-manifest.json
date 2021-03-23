@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/foggy-presentation/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/foggy-presentation/static/js/main.57fd857d.chunk.js",
-    "main.js.map": "/foggy-presentation/static/js/main.57fd857d.chunk.js.map",
+    "main.js": "/foggy-presentation/static/js/main.c57e310a.chunk.js",
+    "main.js.map": "/foggy-presentation/static/js/main.c57e310a.chunk.js.map",
     "runtime-main.js": "/foggy-presentation/static/js/runtime-main.b4dc8ca9.js",
     "runtime-main.js.map": "/foggy-presentation/static/js/runtime-main.b4dc8ca9.js.map",
-    "static/js/2.211d5225.chunk.js": "/foggy-presentation/static/js/2.211d5225.chunk.js",
-    "static/js/2.211d5225.chunk.js.map": "/foggy-presentation/static/js/2.211d5225.chunk.js.map",
+    "static/js/2.96df32c0.chunk.js": "/foggy-presentation/static/js/2.96df32c0.chunk.js",
+    "static/js/2.96df32c0.chunk.js.map": "/foggy-presentation/static/js/2.96df32c0.chunk.js.map",
     "static/js/3.9ec9d93f.chunk.js": "/foggy-presentation/static/js/3.9ec9d93f.chunk.js",
     "static/js/3.9ec9d93f.chunk.js.map": "/foggy-presentation/static/js/3.9ec9d93f.chunk.js.map",
     "index.html": "/foggy-presentation/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/foggy-presentation/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.211d5225.chunk.js.LICENSE.txt": "/foggy-presentation/static/js/2.211d5225.chunk.js.LICENSE.txt",
+    "static/js/2.96df32c0.chunk.js.LICENSE.txt": "/foggy-presentation/static/js/2.96df32c0.chunk.js.LICENSE.txt",
     "static/media/1_ubuntu.b381a8c4.png": "/foggy-presentation/static/media/1_ubuntu.b381a8c4.png",
     "static/media/2_lake.0b950eca.png": "/foggy-presentation/static/media/2_lake.0b950eca.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b4dc8ca9.js",
-    "static/js/2.211d5225.chunk.js",
+    "static/js/2.96df32c0.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.57fd857d.chunk.js"
+    "static/js/main.c57e310a.chunk.js"
   ]
 }
