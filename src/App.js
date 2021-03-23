@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { VictoryChart, VictoryLine, VictoryPie, VoctoryTooltip, VictoryLabel, VictoryTooltip, VictoryVoronoiContainer, VictoryGroup, VictoryScatter } from 'victory';
+import { VictoryChart, VictoryLine, VictoryPie, VictoryLabel, VictoryTooltip, VictoryVoronoiContainer, VictoryGroup, VictoryScatter } from 'victory';
 import getData from './data';
 import screenshot_1 from "./screenshots/1_ubuntu.png";
 import screenshot_2 from "./screenshots/2_lake.png";
@@ -9,22 +8,14 @@ import {
   FlexBox,
   Heading,
   UnorderedList,
-  CodeSpan,
-  OrderedList,
   ListItem,
   FullScreen,
   Progress,
-  Appear,
   Slide,
   Deck,
   Text,
-  Grid,
   Box,
   Quote,
-  Image,
-  CodePane,
-  MarkdownSlide,
-  MarkdownSlideSet,
   Notes
 } from 'spectacle';
 
@@ -94,7 +85,7 @@ const Presentation = () => (
           Дистрибутив Linux (часто скорочується як distro) - це операційна система, створена з колекції програмного забезпечення, яка базується на ядрі Linux і, часто, системи управління пакетами
         </ListItem>
       </UnorderedList>
-      <small><a style={anote}>Визначення: вікіпедія, вебсайт gnu.org</a></small>
+      <small><span style={anote}>Визначення: вікіпедія, вебсайт gnu.org</span></small>
       <Notes>
         <a href="https://www.howtogeek.com/132624/htg-explains-whats-a-linux-distro-and-how-are-they-different/">What is a linux distro</a>
         <ul>
@@ -112,7 +103,7 @@ const Presentation = () => (
         <Text>Ubuntu</Text>
       </FlexBox>
       <FlexBox flexDirection="row" alignItems="center">
-        <img src={screenshot_1} width="50%" />
+        <img alt="Ubuntu, gnome desktop screenshot" src={screenshot_1} width="50%" />
         <Quote><small>Ubuntu - операційна система, найпопулярніший у світі дистрибутив Linux. Серед основних цілей Ubuntu - надання сучасного й водночас стабільного програмного забезпечення для пересічного користувача із сильним акцентом на простоту встановлення та користування</small></Quote>
       </FlexBox>
       <Notes>
@@ -249,7 +240,7 @@ const Presentation = () => (
     <Slide backgroundColor="background">
       <Heading>Що ми створюємо: центр "lake"</Heading>
       <FlexBox flexDirection="row">
-        <img src={screenshot_2} width="50%" />
+        <img alt="Lake settings centre screenshot" src={screenshot_2} width="50%" />
         <Quote fontSize="36px">
           Ви можете налаштувати свою систему як завгодно.
           Однак для цього потрібно змінити багато файлів конфігурації, подібних до коду.
