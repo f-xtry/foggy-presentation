@@ -3,6 +3,7 @@ import { VictoryChart, VictoryLine, VictoryPie, VictoryLabel, VictoryTooltip, Vi
 import getData from './data';
 import screenshot_1 from "./screenshots/1_ubuntu.png";
 import screenshot_2 from "./screenshots/2_lake.png";
+import background_image from "./background.png";
 
 import {
   FlexBox,
@@ -59,9 +60,13 @@ const template = () => (
 const anote = { color: theme.colors.pale, position: "absolute", bottom: "4rem", right: "8rem" };
 const Presentation = () => (
   <Deck theme={theme} template={template}>
-    <Slide backgroundColor="background">
+    <Slide
+      backgroundColor="background"
+      backgroundImage={`url(${background_image})`}
+      backgroundOpacity={0.5}
+    >
       <Heading>FoggyOS</Heading>
-      <FlexBox flexDirection="row" justifyContent="center">
+      <FlexBox flexDirection="row" justifyContent="center" alignItems="flex-end" height="100%">
         <Text>ОС Налаштована бути налаштовуваною</Text>
       </FlexBox>
       <Notes>
