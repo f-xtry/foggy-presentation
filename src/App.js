@@ -3,6 +3,7 @@ import { VictoryChart, VictoryLine, VictoryPie, VictoryLabel, VictoryTooltip, Vi
 import getData from './data';
 import screenshot_1 from "./screenshots/1_ubuntu.png";
 import screenshot_2 from "./screenshots/2_lake.png";
+import screenshot_3 from "./screenshots/Gnome.png";
 import background_image from "./background.png";
 
 import {
@@ -241,6 +242,15 @@ const Presentation = () => (
         Та процес цей нелегкий, і вимагає безпосередньої взаємодії з подібними на код файлами конфігурації.
         Взірцеві приклади ricing можна переглянути на <a style={{ color: theme.colors.pale }} href="https://reddit.com/r/unixporn">reddit</a>
       </Text>
+    </Slide>
+    <Slide backgroundColor="background">
+		<Heading>Переваги linux: Ricing</Heading>
+			<FlexBox flexDirection="row">
+				<img alt="Ricing examples" src={screenshot_3} width="50%"/>
+				<Quote fontSize="36px">
+					Розробники дистрибутивів linux прагнуть до спрощення зміни вигляду ОС, адже тепер це надзвичайно важлива частина культури дистрибутивів linux. Зліва можна побачити декілька прикладів RICINgу
+				</Quote>
+			</FlexBox>
     </Slide>
     <Slide backgroundColor="background">
       <Heading>Що ми створюємо: центр "lake"</Heading>
